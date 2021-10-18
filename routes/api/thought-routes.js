@@ -7,7 +7,7 @@ const {
     updateThought,
     removeThought,
     removeReaction
-} = require('../../controllers/pizza-controller');
+} = require('../../controllers/thought-controller');
 
 // /api/thoughts
 router
