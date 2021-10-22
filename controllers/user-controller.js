@@ -78,7 +78,6 @@ const userController = {
     // remove thought
     removeUser({ params }, res) {
         User.findOneAndDelete({ _id: params.userId })
-            // TODO: DELETE ALL THOUGHTS ASSOCIATED WITH THAT USER
             .then(deletedUser => {
                 if (!deletedUser) {
                     return res.status(404).json({ message: 'No user with this id!' });
