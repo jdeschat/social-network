@@ -46,10 +46,8 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command ```npm install```  into the terminal. Install express and mongoose by entering ```npm i express``` and ```npm i mongoose``` into the command line, respectively.
 
 ## Usage
-1. Initialize npm: npm init -y
-2. Install npm: npm install
-3. Install express and mongoose: npm i express mongoose
-4. Open Insomnia and test API GET, POST, PUT, and DELETE routes for thoughts, users, friends, and reactions
+1. Install npm and dependencies: npm install
+2. Open Insomnia and test API GET, POST, PUT, and DELETE routes for thoughts, users, friends, and reactions
 
 ## Contributors
 To contribute to social-network, clone this repo locally and commit your code on a separate branch.
@@ -71,7 +69,7 @@ Made with [contributors-img](https://contrib.rocks).
 •	Javascript
 •	Mongoose
 •	MongoDB
-•	Mongoose
+•	Insomnia
 
 ## Questions
 My Github username is jdeschat, which can be accessed here https://github.com/jdeschat/social-network.
@@ -81,5 +79,5 @@ You can reach me at jdeschat@gmail.com with additional questions.
 Below is the link to my demo video on my Github:
 - [Video location in Github](https://github.com/jdeschat/social-network/tree/main/assets/video)
 
-![Alt Text](https://github.com/jdeschat/social-network/blob/main/assets/video/demo.gif)
+![Alt Text](https://github.com/jdeschat/social-network/blob/main/assets/video/social-network.gif)
 
